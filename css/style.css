@@ -25,6 +25,7 @@ html {
 
 body {
   background: url(/images/pattern-background-desktop.svg) no-repeat, #f5f7ff;
+  background-size: contain;
 }
 
 .card {
@@ -36,6 +37,11 @@ body {
   margin-top: 10rem;
   background: white;
   border-radius: 1rem;
+}
+@media only screen and (max-width: 120em) {
+  .card {
+    margin-top: 10rem;
+  }
 }
 @media only screen and (max-width: 62.5em) {
   .card {
