@@ -1,6 +1,6 @@
 // RESPONSIVE BREAKPOINTS
 $bp-tablet: 62.5em; // 1000px
-$bp-desktop: 85em; // 1360px
+$bp-desktop: 112.5em; // 1800px
 $bp-mobile: 37.5em; // 600px
 
 *,
@@ -28,4 +28,5 @@ html {
 
 body {
   background: url(/images/pattern-background-desktop.svg) no-repeat, #f5f7ff;
+  background-size: contain;
 }
